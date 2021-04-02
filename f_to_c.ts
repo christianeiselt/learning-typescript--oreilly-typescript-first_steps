@@ -1,10 +1,10 @@
-function fahrenheit_to_celsius(fahrenheit: number): String {
+function fahrenheit_to_celsius(fahrenheit: number): string {
   const celsius: number = (fahrenheit - 32) * (5 / 9);
 
   return `${fahrenheit}F = ${celsius}C`;
 }
 
-function celsius_to_fahrenheit(celsius: number): String {
+function celsius_to_fahrenheit(celsius: number): string {
   const fahrenheit: number = celsius * (9 / 5) + 32;
 
   return `${celsius}C = ${fahrenheit}F`;
