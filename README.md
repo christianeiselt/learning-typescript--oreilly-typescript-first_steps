@@ -1,0 +1,1 @@
+[Link to course](git@github.com:christianeiselt/learning-typescript--oreilly-typescript-first_steps.git)
