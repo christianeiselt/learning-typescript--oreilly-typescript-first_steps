@@ -16,9 +16,13 @@ class Manager implements Employee {
   name: string;
   age: number;
 
-  constructor(public department: string, emp_name: string, emp_age: number) {
-    this.name = emp_name;
-    this.age = emp_age;
+  constructor(
+    public department: string,
+    employeeName: string,
+    employeeAge: number
+  ) {
+    this.name = employeeName;
+    this.age = employeeAge;
   }
 }
 
