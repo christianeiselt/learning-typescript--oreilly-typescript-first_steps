@@ -7,4 +7,5 @@ function fahrenheitToCelsius(fahrenheit: number): string {
 const currentTempF = 32;
 const FahrenheitToCelsiusMessage = fahrenheitToCelsius(currentTempF);
 
+// eslint-disable-next-line no-console
 console.log(FahrenheitToCelsiusMessage);

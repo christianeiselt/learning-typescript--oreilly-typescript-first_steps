@@ -27,4 +27,5 @@ stringData.addItemToCollection("apple");
 stringData.addItemToCollection("orange");
 stringData.addItemToCollection("pear");
 
+// eslint-disable-next-line no-console
 console.log(stringData);

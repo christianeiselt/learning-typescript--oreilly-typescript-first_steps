@@ -6,10 +6,12 @@ let stringArray: string[] = ["apple", "orange", "pear"];
 
 let fewerStrings = shrinkArray<string>(stringArray, 2);
 
+// eslint-disable-next-line no-console
 console.log(fewerStrings);
 
 let numArray: number[] = [1, 2, 3];
 
 let fewerNums = shrinkArray<number>(numArray, 2);
 
+// eslint-disable-next-line no-console
 console.log(fewerNums);

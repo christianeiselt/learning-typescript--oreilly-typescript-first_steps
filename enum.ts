@@ -10,4 +10,5 @@ let person = {
   favoriteColor: Colors.Blue,
 };
 
+// eslint-disable-next-line no-console
 console.log(person.favoriteColor);
