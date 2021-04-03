@@ -43,6 +43,7 @@ mgr = {
 let engineer: Employee = {
   name: "Daniel",
   age: 48,
+  // eslint-disable-next-line no-console
   doWork: () => console.log("Busy working..."),
 };
 
