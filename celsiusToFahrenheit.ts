@@ -7,4 +7,5 @@ function celsiusToFahrenheit(celsius: number): string {
 const currentTempC = 30;
 const CelsiusToFahrenheitMessage = celsiusToFahrenheit(currentTempC);
 
+// eslint-disable-next-line no-console
 console.log(CelsiusToFahrenheitMessage);

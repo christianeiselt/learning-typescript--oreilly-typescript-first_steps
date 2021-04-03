@@ -11,19 +11,25 @@ interface Employee extends Person {
 class Manager implements Employee {
   title?: string | undefined;
   doWork(): void {
+    // eslint-disable-next-line no-console
     console.log("Manager at work.");
   }
   name: string;
   age: number;
 
-  constructor(public department: string, emp_name: string, emp_age: number) {
-    this.name = emp_name;
-    this.age = emp_age;
+  constructor(
+    public department: string,
+    employeeName: string,
+    employeeAge: number
+  ) {
+    this.name = employeeName;
+    this.age = employeeAge;
   }
 }
 
 let mgr: Manager = new Manager("WebDev", "Michelle", 30);
 mgr.doWork();
+// eslint-disable-next-line no-console
 console.log(mgr);
 
 mgr = {
@@ -40,4 +46,5 @@ let engineer: Employee = {
 };
 
 engineer.doWork();
+// eslint-disable-next-line no-console
 console.log(engineer);
